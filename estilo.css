@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ffffff;
+	font-family: 'STIX Two Math', serif;
+}
+
+main{
+	width: 80%;
+	height: 625px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	border: 20px double rgba(15,97,164,0.27);
+}
+
+
+header{
+	width: 100%;
+	height: 125px;
+	background-color: #7dc4c7;
+}
+
+nav{
+	width: 100%;
+	height: 25px;
+	background-color: #d1fdff;
+}
+
+section{
+	width: 100%;
+	height: 420px;
+	background-color: #d1fdff;
+}
+
+footer{
+	width: 100%;
+	height: 15px;
+	background-color: #d1fdff;
+}
+
+
+
+.columnas{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	column-count: 3;
+	column-gap: 60px;
+	column-rule: 7px dotted #6cc4c7;
+	border-color: #6cc4c7;
+	border-width: 10px;
+	border-style: outset;
+	font-size: 20px;
+	background: #003740;
+	background: -moz-linear-gradient(top, #003740 0%, #6CA0AB 100%);
+	background: -webkit-linear-gradient(top, #003740 0%, #6CA0AB 100%);
+	background: linear-gradient(to bottom, #003740 0%, #6CA0AB 100%);
+	color: #6fc3c7;
+}
+
+h2{
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.nombre{
+	height: 50px;
+	width: 200px;
+	background-color: #264d4f;
+	color: #6fc3c7;
+	text-align: center;
+	margin-left: 13%;
+	margin-top: 5%;
+	font-size: 40px;
+	float: left;
+	-webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, inset 10px 0px 15px 0px rgba(0,64,255,0.26); 
+	box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, inset 10px 0px 15px 0px rgba(0,64,255,0.26);
+}
+
+.fr{
+	margin-top: 1%;
+	float: right;
+	margin-right: 25%;
+	border:solid 2px #264d4f;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 1px 42px 7px #000000, 0px 1px 42px 7px #B0FFFB, 0px 1px 42px 7px #0040FF; 
+	box-shadow: 0px 1px 42px 7px #000000, 0px 1px 42px 7px #B0FFFB, 0px 1px 42px 7px #0040FF;
+}
+
