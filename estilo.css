@@ -13,87 +13,195 @@ body{
 
 main{
 	width: 80%;
-	height: 625px;
+	height: 1145px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ffffff;
-	border: 20px double rgba(15,97,164,0.27);
 }
 
+#caja{
+	border-right: 4px solid #000000;
+	border-left: 4px solid #000000;
+}
+
+#texto1{
+	float: left;
+	font-size: 20px;
+	width: 550px;
+	margin-top: 6%;
+	margin-left: 2%;
+	color: #000000;
+	background-color: #d1fdff;
+	border: 5px outset #1C6EA4;
+	border-radius: 40px;
+	padding: 3%;
+}
 
 header{
 	width: 100%;
-	height: 125px;
+	height: 200px;
+	background-image: url(fq2.png);
 	background-color: #7dc4c7;
 }
 
 nav{
 	width: 100%;
 	height: 25px;
-	background-color: #d1fdff;
+	background-color: #264d4f;
 }
 
 section{
 	width: 100%;
-	height: 420px;
-	background-color: #d1fdff;
+	height: 820px;
+	background-color: #264d4f;
 }
 
 footer{
 	width: 100%;
-	height: 15px;
+	height: 100px;
 	background-color: #d1fdff;
 }
 
 
-
-.columnas{
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 5%;
-	column-count: 3;
-	column-gap: 60px;
-	column-rule: 7px dotted #6cc4c7;
-	border-color: #6cc4c7;
-	border-width: 10px;
-	border-style: outset;
-	font-size: 20px;
-	background: #003740;
-	background: -moz-linear-gradient(top, #003740 0%, #6CA0AB 100%);
-	background: -webkit-linear-gradient(top, #003740 0%, #6CA0AB 100%);
-	background: linear-gradient(to bottom, #003740 0%, #6CA0AB 100%);
-	color: #6fc3c7;
-}
-
-h2{
-	font-size: 40px;
-	text-decoration: underline;
-}
-
-.nombre{
-	height: 50px;
+#nombre{
+	height: 100px;
 	width: 200px;
 	background-color: #264d4f;
 	color: #6fc3c7;
 	text-align: center;
+	font-size: 50px;
+	margin-left: 5%;
+	padding-top: 50px;
+}
+
+#imagenes{
+	float: right;
+	margin-right: 5%;
+}
+
+.logoup{
+	margin-left: 8%;
+	margin-top: 1%;
+	float: left;
+}
+
+.agus{
+	padding-top: 3%;
+	color: #264d4f;
+	float: left;
+	margin-left: 25%;
+	margin-top: 2%;
+}
+
+#logo{
+	float: right;
+	width: 23%;
+}
+
+#logo li{
+	display: inline;
+}
+
+#logo li img{
+	text-decoration: none;
+	margin-top: 15%;
+	padding-right: 5%;
+}
+
+/*celular*/
+@media (min-width: 576px) and (max-width: 767px) 
+{
+.noesta{display: none;}
+#contenedor{
+	width: 100%;
+	margin: 0;}
+#contenedor .primero,#contenedor .segundo{
+	width: 100%; 
+	float: none;}
+main{
+	width: 80%;
+	height: 1543px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+section{
+	height: 1200px;
+}
+
+#texto1{
+	float: left;
+	font-size: 20px;
+	width: 400px;
+	margin-top: 6%;
+	margin-left: 5%;
+	color: #000000;
+	background-color: #d1fdff;
+	border: 5px outset #1C6EA4;
+	border-radius: 40px;
+	padding: 3%;
+}
+.agus{
+	padding-top: 3%;
+	color: #264d4f;
+	float: left;
 	margin-left: 13%;
 	margin-top: 5%;
-	font-size: 40px;
+}
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: #d1fdff;
+}
+.logoup{
+	margin-left: 8%;
+	margin-top: 3%;
 	float: left;
-	-webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, inset 10px 0px 15px 0px rgba(0,64,255,0.26); 
-	box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, inset 10px 0px 15px 0px rgba(0,64,255,0.26);
+}
 }
 
-.fr{
-	margin-top: 1%;
-	float: right;
-	margin-right: 25%;
-	border:solid 2px #264d4f;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
-	-webkit-box-shadow: 0px 1px 42px 7px #000000, 0px 1px 42px 7px #B0FFFB, 0px 1px 42px 7px #0040FF; 
-	box-shadow: 0px 1px 42px 7px #000000, 0px 1px 42px 7px #B0FFFB, 0px 1px 42px 7px #0040FF;
-}
 
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+.noesta{display: none;}
+section{
+	width: 100%;
+	height: 1100px;
+	background-color: #264d4f;
+}
+footer{
+	width: 100%;
+	height: 130px;
+	background-color: #d1fdff;
+}
+.logoup{
+	margin-left: 8%;
+	margin-top: 5%;
+	float: left;
+}
+.agus{
+	padding-top: 3%;
+	color: #264d4f;
+	float: left;
+	margin-left: 13%;
+	margin-top: 5%;
+}
+main{
+	width: 80%;
+	height: 1450px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+#texto1{
+	float: left;
+	font-size: 20px;
+	margin-top: 6%;
+	margin-left: 5%;
+	color: #000000;
+	background-color: #d1fdff;
+	border: 5px outset #1C6EA4;
+	border-radius: 40px;
+	padding: 3%;
+}
